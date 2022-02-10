@@ -9,6 +9,7 @@ const postSchema = new mongoose.Schema({
         type: String,
         required: [true, 'A post must have location']
     },
+    
     files:[{
         type:String
     }],
