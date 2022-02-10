@@ -11,6 +11,7 @@ const { newLikeNotification , newCommentNotification, newJogapCommentNotificatio
 
 // Change user unreadpost type
 
+
 router.put('/unread', logged, async (req, res) => {
     try {
         await User.findByIdAndUpdate(req.user._id, {$set: { unreadPosts: false} } )

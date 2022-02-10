@@ -4,6 +4,7 @@ const Messages = require('../models/Message');
 const router = require('express').Router();
 const {logged} = require('../middleware/authMiddleware')
 
+
 function fer( f ){
     return f.map( i=>{
         const {_id, groupName, recipients, admins, status, isGroup} = i;

@@ -6,6 +6,7 @@ const uuid = require('uuid').v4;
 const Notifications = require('../models/Notifications');
 const { logged } = require('../middleware/authMiddleware');
 
+
 router.put('/', logged, async (req, res) => {
     try {
         await User.findByIdAndUpdate(req.user._id, {$set: { unreadNotifications: false} } )

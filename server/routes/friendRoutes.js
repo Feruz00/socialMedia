@@ -9,6 +9,7 @@ router.post('/follow', logged, async(req, res) => {
     const { _id } = req.body;
     if(req.user._id === _id) return res.status(403).json({message: 'You cannot follow himself!'})
 
+    
     try {
         const user = await Follow.findOne({user: req.user._id}); //laura
         const kabul = await Follow.findOne({user: _id}) // aarav
