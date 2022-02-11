@@ -28,7 +28,7 @@ yarn # or npm i
 cd server/
 touch .env 
 ```
-Following are the environment variables:
+Following are the environment variables:<br />
 `FRONTEND_URL` - Frontend url <br />
 `SESSION_SECRET` - Secret for `express-session` <br />
 `MONGO_URL` - is the MongoDB connection string, for e.g. `MONGO_URL=mongodb://localhost:27017/socialMedia` <br />
