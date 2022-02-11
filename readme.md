@@ -37,7 +37,7 @@ Following are the environment variables:<br />
 `USER_ADDRESS`, `USER_PASSWORD` - for gmail account send tokens when user registered or reset password to confirm email <br />
 `my_secret` - it is simple your secret <br />
 
-*Run the project locally for development
+* Run the project locally for development
 Open two terminal
 ```
 cd client/
