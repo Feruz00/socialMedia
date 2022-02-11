@@ -29,13 +29,13 @@ cd server/
 touch .env 
 ```
 Following are the environment variables:
-`FRONTEND_URL` - Frontend url
-`SESSION_SECRET` - Secret for `express-session`
-`MONGO_URL` - is the MongoDB connection string, for e.g. `MONGO_URL=mongodb://localhost:27017/socialMedia`
-`GOOGLE_CLIENT_ID` , `GOOGLE_CLIENT_SECRET` - fill up [Cloud Google](https://console.cloud.google.com/)
- `GITHUB_CLIENT_ID`, `GITHUB_CLIENT_SECRET` - fill up [Github](https://github.com)
-`USER_ADDRESS`, `USER_PASSWORD` - for gmail account send tokens when user registered or reset password to confirm email
-`my_secret` - it is simple your secret
+`FRONTEND_URL` - Frontend url <br />
+`SESSION_SECRET` - Secret for `express-session` <br />
+`MONGO_URL` - is the MongoDB connection string, for e.g. `MONGO_URL=mongodb://localhost:27017/socialMedia` <br />
+`GOOGLE_CLIENT_ID` , `GOOGLE_CLIENT_SECRET` - fill up [Cloud Google](https://console.cloud.google.com/) <br />
+ `GITHUB_CLIENT_ID`, `GITHUB_CLIENT_SECRET` - fill up [Github](https://github.com) <br />
+`USER_ADDRESS`, `USER_PASSWORD` - for gmail account send tokens when user registered or reset password to confirm email <br />
+`my_secret` - it is simple your secret <br />
 
 *Run the project locally for development
 Open two terminal
